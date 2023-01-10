@@ -26,17 +26,29 @@
             Amennyiben ön Tatabányán él vagy dolgozik, kérjük írjon véleményt a városról.
         </p>
         <form action="">
-            <label for="nev">Név:</label>
+         <fieldset>
+          <legend>Írjon véleményt</legend>
+          <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név:</label> <br>
             <input type="text" name="nev" id="nev" placeholder="az ön neve">
               <br>
-            <label for="eletkor">Születési idő:</label>
+            <label for="eletkor">Születési idő:</label> <br>
             <input type="date" name="eletkor" id="eletkor">
               <br>
-            <label for="email">Email cím</label>
+          </fieldset>
+          <fieldset>
+            <legend>Elérhetőség</legend>    
+            <label for="email">Email cím:</label> <br>
             <input type="email" name="email" id="email" placeholder="emailcíme">
               <br>
-            <label for="telefonszam">Telefonszám</label>
-            <input type="tel" name="telefonszam" id="telefonszam" placeholder="telefonszáma">  
+            <label for="telefonszam">Telefonszám:</label> <br>
+            <input type="tel" name="telefonszam" id="telefonszam" placeholder="telefonszáma">
+          </fieldset>   
+              <br>
+            <label for="">Vélemény:</label> <br>
+            <textarea name="velemeny" rows="5" cols="40" placeholder="véleménye"></textarea>    
+         </fieldset>
         </form>
     </div>
 </body>
