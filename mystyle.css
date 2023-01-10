@@ -1,3 +1,8 @@
+.body {
+    margin-left: 251px ;
+    margin-right: 251px ;
+}
+
 #cimsor {
     background-image: url(tatabanya.PNG);
     background-position: center;
@@ -7,9 +12,24 @@
     padding-bottom: 25px;
     margin: 0px;
     color: white;
+    border: solid black 3px;
 
     font-weight: bold;
     text-align: center;
     font-size: 100px;
     letter-spacing: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
