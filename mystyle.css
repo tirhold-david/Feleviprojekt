@@ -1,6 +1,10 @@
+
+
 .body {
     margin-left: 251px ;
     margin-right: 251px ;
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 #cimsor {
@@ -32,4 +36,9 @@ a {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#b {
+    border: solid red 2px;
+    border-radius: 5px;
 }
