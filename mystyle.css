@@ -1,29 +1,25 @@
 
 
 .body {
-    margin-left: 251px ;
-    margin-right: 251px ;
+    margin-left: 176px ;
+    margin-right: 176px ;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 #cimsor {
-    background-color: darkolivegreen;
-}
-
-h1 {
     background-image: url(tatabanya.PNG);
-    background-position: center;
+    background-position: center ;
     background-repeat: no-repeat;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin: 0px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    padding: 0px;
     color: white;
     border: solid black 3px;
 
     font-weight: bold;
     text-align: center;
-    font-size: 100px;
+    font-size: 43px;
     letter-spacing: 5px;
 }
 
