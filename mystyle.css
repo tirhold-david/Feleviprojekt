@@ -3,8 +3,11 @@
 .body {
     margin-left: 251px ;
     margin-right: 251px ;
-    font-family: Arial, Helvetica, sans-serif;
-   
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#cimsor {
+    background-color: darkolivegreen;
 }
 
 h1 {
