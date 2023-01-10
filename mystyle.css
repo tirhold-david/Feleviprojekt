@@ -1,0 +1,15 @@
+#cimsor {
+    background-image: url(tatabanya.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0px;
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
