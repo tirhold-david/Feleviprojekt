@@ -1,39 +1,42 @@
 
 
 .body {
-    margin-left: 176px ;
-    margin-right: 176px ;
-    font-family: Arial, Helvetica, sans-serif; 
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 225px;
+    padding-right: 225px;
 }
 
 #cimsor {
-    background-image: url(tatabanya.PNG);
-    background-position: center ;
-    background-repeat: no-repeat;
-
-    padding-top: -10px;
-    padding-bottom: -10px;
-    padding: 0px;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
+    letter-spacing: 5px;
+
+    background-image: url(tatabanya.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:25px ;
+    padding-bottom:25px ;
     border: solid black 3px;
 
-    font-weight: bold;
-    text-align: center;
-    font-size: 43px;
-    letter-spacing: 5px;
+   
 }
 
-a {
-    color: white;
+a{
     text-decoration: none;
+    color: white;
 }
 
-.link {
+#link {
     color: white;
     background-color: black;
-    font-size: 25px;
     text-align: center;
-    padding-top: 5px;
+    font-size: 25px;
+    padding-top: 5x;
     padding-bottom: 5px;
 }
 
